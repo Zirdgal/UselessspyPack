@@ -1,0 +1,115 @@
+::-webkit-scrollbar {
+    display:none;
+}
+body {
+    background-color:black;
+    margin:0px;
+    font-family:Minecraft;
+    text-shadow:
+    3px 3px 0 #000,
+    0px 0px 0 #000,  
+    0px 0px 0 #000,
+    0px 0px 0 #000,
+    0px 0px 0 #000;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+  }
+.topnav {
+    z-index:3;
+    background-color:#FF6969;
+    overflow:hidden;
+    padding-left: 25vw;
+    padding-right:34.45vw;
+    position:fixed;
+}
+.topnav a {
+    padding:3vh; 
+    float:left;
+
+    color:#ECCDB4;
+
+    font-weight:bold;
+    font-size:3vh;
+}
+.topnav a:hover {
+    background-color:#f54e4e;
+    color:#F6C391;
+    cursor: pointer;
+    user-select: none;
+}
+.active {
+    background-color:#f54e4e;
+    color:#F6C391;
+    cursor: pointer;
+    user-select: none;
+}
+.page {
+    display:flex;
+    position:fixed;
+    background-image: url("img/background2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100vw;
+    height:100vh;
+}
+.left-text {
+    padding-top:40vh;
+    padding-left:5vw;
+    z-index:2;
+    width:57vw;
+    color:#FFD881;
+    font-size:50px;
+}
+.right-text {
+    padding-top:40vh;
+    z-index:2;
+    width:43vw;
+    color:#C68E17;
+    font-size:40px;
+}
+.textPage {
+    background-image: url("img/darken.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:13vh;
+    padding-left:50vh;
+    padding-right:50vh;
+    width:70vw;
+    height:100vh;
+}
+.textPage .title {
+    font-size:40px;
+    color:#ecd196;
+}
+.textPage .subtitle {
+    font-size:25px;
+    padding-left:5vw;
+    color:#DEB887;
+}
+.textPage .trailer {
+    font-size:25px;
+    padding-left:5vw;
+    color:#DEB887;
+}
+.textPage .download {
+    font-size:35px;
+    padding:15px;
+    border:solid;
+    border-color:#C68E17;
+    background-color:#ebcd8c;
+    color:#e99754;
+    text-shadow:none;
+}
+.textPage .undownload {
+    font-size:35px;
+    padding:15px;
+    border:solid;
+    border-color:#c68e172f;
+    background-color:#ebcd8c2f;
+    color:#e9975434;
+    text-shadow:none;
+}
