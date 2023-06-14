@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Minecraft;
+    src: url(fonts/Minecraft.otf);
+  }
 ::-webkit-scrollbar {
     visibility:hidden;
 }
