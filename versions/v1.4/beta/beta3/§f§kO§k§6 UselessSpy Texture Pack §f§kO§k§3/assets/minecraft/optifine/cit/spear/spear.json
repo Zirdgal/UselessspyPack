@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/diamond_sword"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        15.5,
+        -90,
+        55
+      ],
+      "translation": [
+        0,
+        -1.5,
+        2.5
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        0.85
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        15.5,
+        90,
+        -55
+      ],
+      "translation": [
+        0,
+        -1.5,
+        2.5
+      ],
+      "scale": [
+        1.5,
+        1.5,
+        0.85
+      ]
+    }
+  }
+}
