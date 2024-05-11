@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: Minecraft;
     src: url(fonts/Minecraft.otf);
@@ -24,7 +25,7 @@ ul {
   }
 .topnav {
     z-index:3;
-    background-color:#FF6969;
+    background-color:#6985ff;
     overflow:hidden;
     width:100vw;
     padding-left: 25vw;
@@ -34,20 +35,20 @@ ul {
     padding:3vh; 
     float:left;
 
-    color:#ECCDB4;
+    color:#bbeef0;
 
     font-weight:bold;
     font-size:3vh;
 }
 .topnav a:hover {
-    background-color:#f54e4e;
-    color:#F6C391;
+    background-color:#5b75e9;
+    color:#bbe5f0;
     cursor: pointer;
     user-select: none;
 }
 .active {
-    background-color:#f54e4e;
-    color:#F6C391;
+    background-color:#5b75e9;
+    color:#bbe5f0;
     cursor: pointer;
     user-select: none;
 }
